@@ -1,7 +1,7 @@
 # SPTDemoPlacesCallbacks-Android
 ## Installation
-  - Change <USER_NAME> & <PASSWORD> in build.gradle (Project)
-  - Change <YOUR_API_KEY> & <YOUR_API_SECRET> in AndroidManifest.xml
+  - Change username & password in build.gradle (Project)
+  - Change you ApiKey & your ApiSecret in AndroidManifest.xml
   
 ## Usage
 Several methods are available to gather and use Place Data from a device. The app is using several of them in the MainActivity.
