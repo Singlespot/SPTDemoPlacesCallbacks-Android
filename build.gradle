@@ -21,7 +21,7 @@ allprojects {
         google()
         jcenter()
         maven {
-            url "https://sdk.singlespot.com/artifactory/SPTProximityKit-beta"
+            url "https://sdk.singlespot.com/artifactory/SPTProximityKit"
             credentials {
                 username = "ENTER_YOURS_HERE" // TODO: Change with your account's username
                 password = "ENTER_YOURS_HERE" // TODO: Change with you account's password

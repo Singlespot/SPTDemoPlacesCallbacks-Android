@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     private final static double LATITUDE_EIFFEL_TOWER = 48.858370;
     private final static double LONGITUDE_EIFFEL_TOWER = 2.294481;
 
+    public final static int CUSTOM_PLACE_ID = 2352;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private void initSinglespot(final Activity activity) {
         SPTProximityKit.init(activity, locMode, cmpMode);
         setSinglespotPlacesCallback();
-        SPTProximityKit.registerPlaceBroadcastReceiver(activity, new PlaceCallbackReceiver());
+        SPTProximityKit.registerPlaceBroadcastReceiver(activity, new PlaceCallbackReceiver()); // Make sure you register the BroadcastReceiver
     }
 
     /**
@@ -55,5 +57,18 @@ public class MainActivity extends AppCompatActivity {
         // Complete opposite to the first example, this Broadcast will only be fired when the device
         // exits the Work area.
         SPTProximityKit.setExitWorkCallback(this, workConfiguration);
+
+        // Allows you setup callbacks for places you determine. Make sure to fill the
+        SPTPlaceCallbackConfig.Builder configBuilder = new SPTPlaceCallbackConfig.Builder()
+                .setAfterHourOfTheDay(0)
+                .setBeforeHourOfTheDay(24)
+                .setMinHoursBetweenEvents(0)
+                .setPlaceId(CUSTOM_PLACE_ID) // You determine the id you want, make sure it's coherent with the idea you check for in the Receiver
+                .setLatitude(23.0)
+                .setLongitude(25.0)
+                .setPlaceTransition(SPTPlaceCallbackConfig.PlaceTransition.ENTER) // ENTER or EXIT, as you would for a Geofence.
+                .setDistanceTrigger(70); // How many meters away from the geo point, is you Place ? This is the radius of the place.
+
+        SPTProximityKit.setCustomPlaceCallback(this, configBuilder.build()); // Don't forget to build()
     }
 }
