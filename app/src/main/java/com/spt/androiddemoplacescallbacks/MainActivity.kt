@@ -1,74 +1,149 @@
-package com.spt.androiddemoplacescallbacks;
+package com.spt.androiddemoplacescallbacks
 
-import android.app.Activity;
-import android.os.Bundle;
+import android.Manifest
+import android.Manifest.permission.ACCESS_COARSE_LOCATION
+import android.Manifest.permission.ACCESS_FINE_LOCATION
+import android.os.Build
+import android.os.Bundle
+import android.widget.TextView
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
+import com.sptproximitykit.SPTProximityKit
+import com.sptproximitykit.SPTTestPlacesCallbacks
+import com.sptproximitykit.geodata.places.SPTPlaceCallbackConfig
 
-import androidx.appcompat.app.AppCompatActivity;
+class MainActivity : AppCompatActivity() {
 
-import com.sptproximitykit.SPTProximityKit;
-import com.sptproximitykit.SPTTestPlacesCallbacks;
-import com.sptproximitykit.geodata.places.SPTPlaceCallbackConfig;
+    // UI elements
+    private lateinit var tvStatus: TextView
+    private lateinit var tvPermissions: TextView
 
-public class MainActivity extends AppCompatActivity {
-
-    private static SPTProximityKit.LocationRequestMode locMode = SPTProximityKit.LocationRequestMode.serverBased;
-    private static SPTProximityKit.CmpMode cmpMode = SPTProximityKit.CmpMode.atLaunch;
-
-    private final static double LATITUDE_LOUVRE = 49.0333;
-    private final static double LONGITUDE_LOUVRE = 2.5;
-
-    private final static double LATITUDE_EIFFEL_TOWER = 48.858370;
-    private final static double LONGITUDE_EIFFEL_TOWER = 2.294481;
-
-    public final static int CUSTOM_PLACE_ID = 2352;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        initSinglespot(this);
-        SPTTestPlacesCallbacks.setHomePlaceAtLatLong(this, LATITUDE_LOUVRE, LONGITUDE_LOUVRE);
-        SPTTestPlacesCallbacks.setWorkPlaceAtLatLong(this, LATITUDE_EIFFEL_TOWER, LONGITUDE_EIFFEL_TOWER);
+    // Location coordinates for demo
+    companion object {
+        private const val LATITUDE_LOUVRE = 49.0333
+        private const val LONGITUDE_LOUVRE = 2.5
+        private const val LATITUDE_EIFFEL_TOWER = 48.858370
+        private const val LONGITUDE_EIFFEL_TOWER = 2.294481
+        const val CUSTOM_PLACE_ID = 2352
     }
 
-    private void initSinglespot(final Activity activity) {
-        SPTProximityKit.init(activity, locMode, cmpMode);
-        setSinglespotPlacesCallback();
-        SPTProximityKit.registerPlaceBroadcastReceiver(activity, new PlaceCallbackReceiver()); // Make sure you register the BroadcastReceiver
+    // Permission launchers
+    private val requestPermissionLauncher =
+        registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions()) { permissions ->
+            when {
+                permissions.getOrDefault(ACCESS_FINE_LOCATION, false) -> {
+                    // Location granted, check notification permission
+                    if (PermissionUtils.hasNotificationPermission(this)) {
+                        initializeProximityKit()
+                    } else {
+                        requestNotificationPermission()
+                    }
+                }
+                permissions.getOrDefault(ACCESS_COARSE_LOCATION, false) -> {
+                    // Location granted, check notification permission
+                    if (PermissionUtils.hasNotificationPermission(this)) {
+                        initializeProximityKit()
+                    } else {
+                        requestNotificationPermission()
+                    }
+                }
+                else -> tvPermissions.text = "Permissions refusées"
+            }
+        }
+    
+    private val requestNotificationPermissionLauncher =
+        registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted ->
+            if (isGranted) {
+                initializeProximityKit()
+            } else {
+                tvPermissions.text = "Permission de notification refusée"
+            }
+        }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        // Initialize UI
+        tvStatus = findViewById(R.id.tvStatus)
+        tvPermissions = findViewById(R.id.tvPermissions)
+
+        // Initialize SPT ProximityKit immediately
+        initializeSPT()
     }
 
-    /**
-     * If you do not receive the notifications, make sure you're not outside of the time slots defined in the parameters
-     */
-    private void setSinglespotPlacesCallback() {
-        // For this example, we allow the Home Broadcast to be sent only after 4pm or before 9am
-        // We also don't want a more than one trigger per two hour window and set it
-        // accordingly in the SPTPlaceCallbackConfig as shown below:
-        SPTPlaceCallbackConfig homeConfiguration = new SPTPlaceCallbackConfig(16, 9, 0);
+    private fun initializeSPT() {
+        // Check permissions first
+        if (PermissionUtils.hasLocationPermissions(this)) {
+            tvPermissions.text = "Permissions accordées"
+            // Also check notification permission for Android 13+
+            if (PermissionUtils.hasNotificationPermission(this)) {
+                initializeProximityKit()
+            } else {
+                tvPermissions.text = "Permission de notification requise"
+                requestNotificationPermission()
+            }
+        } else {
+            tvPermissions.text = "Permissions requises"
+            requestLocationPermissions()
+        }
+    }
+    
+    private fun requestNotificationPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            requestNotificationPermissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
+        } else {
+            initializeProximityKit()
+        }
+    }
+    
+    private fun requestLocationPermissions() {
+        requestPermissionLauncher.launch(PermissionUtils.getLocationPermissions())
+    }
 
-        // Simple second example for a Broadcast to be sent to the PlaceCallbackReceiver
-        // only between 9am and 5pm. Moreover, we don't want more than one broadcast per hour.
-        SPTPlaceCallbackConfig workConfiguration = new SPTPlaceCallbackConfig(9, 17, 0);
+    private fun initializeProximityKit() {
+        tvStatus.text = "Initialisation SPT..."
 
-        // Using the setEnterHomeCallback ensures the Broadcast to be received only upon entering
-        // the Home area, this won't be fired on exit.
-        SPTProximityKit.setEnterHomeCallback(this, homeConfiguration);
+        // Initialize SPT ProximityKit with your credentials
+        val apiKey = "ENTER_YOURS_HERE"
+        val apiSecret = "ENTER_YOURS_HERE"
 
-        // Complete opposite to the first example, this Broadcast will only be fired when the device
-        // exits the Work area.
-        SPTProximityKit.setExitWorkCallback(this, workConfiguration);
+        SPTProximityKit.init(applicationContext, apiKey, apiSecret)
 
-        // Allows you setup callbacks for places you determine. Make sure to fill the
-        SPTPlaceCallbackConfig.Builder configBuilder = new SPTPlaceCallbackConfig.Builder()
-                .setAfterHourOfTheDay(0)
-                .setBeforeHourOfTheDay(24)
-                .setMinHoursBetweenEvents(0)
-                .setPlaceId(CUSTOM_PLACE_ID) // You determine the id you want, make sure it's coherent with the idea you check for in the Receiver
-                .setLatitude(23.0)
-                .setLongitude(25.0)
-                .setPlaceTransition(SPTPlaceCallbackConfig.PlaceTransition.ENTER) // ENTER or EXIT, as you would for a Geofence.
-                .setDistanceTrigger(70); // How many meters away from the geo point, is you Place ? This is the radius of the place.
+        // Configure place callbacks
+        setupPlaceCallbacks()
 
-        SPTProximityKit.setCustomPlaceCallback(this, configBuilder.build()); // Don't forget to build()
+        // Register for place events
+        SPTProximityKit.geodata.registerPlaceBroadcastReceiver(this, PlaceCallbackReceiver())
+
+        // Set test places
+        SPTTestPlacesCallbacks.setHomePlaceAtLatLong(this, LATITUDE_LOUVRE, LONGITUDE_LOUVRE)
+        SPTTestPlacesCallbacks.setWorkPlaceAtLatLong(
+            this,
+            LATITUDE_EIFFEL_TOWER,
+            LONGITUDE_EIFFEL_TOWER
+        )
+
+        tvStatus.text = "SPT ProximityKit prêt !"
+    }
+
+    private fun setupPlaceCallbacks() {
+        // Home place: triggers when entering (after 4pm or before 9am)
+        val homeConfig = SPTPlaceCallbackConfig(16, 9, 0)
+        SPTProximityKit.geodata.setEnterHomeCallback(this, homeConfig)
+
+        // Work place: triggers when exiting (9am to 5pm)
+        val workConfig = SPTPlaceCallbackConfig(9, 17, 0)
+        SPTProximityKit.geodata.setExitWorkCallback(this, workConfig)
+
+        // Custom place with specific coordinates
+        val customConfig = SPTPlaceCallbackConfig.Builder()
+            .setPlaceId(CUSTOM_PLACE_ID)
+            .setLatitude(23.0)
+            .setLongitude(25.0)
+            .setPlaceTransition(SPTPlaceCallbackConfig.PlaceTransition.ENTER)
+            .setDistanceTrigger(70) // 70 meters radius
+            .build()
+        SPTProximityKit.geodata.setCustomPlaceCallback(this, customConfig)
     }
 }

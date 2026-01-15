@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.spt.androiddemoplacescallbacks">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Permissions required for ProximityKit -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
         android:allowBackup="true"
@@ -9,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.spt.androiddemoplacescallbacks.MainActivity">
+        <activity android:name="com.spt.androiddemoplacescallbacks.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,10 +26,10 @@
 
         <meta-data
             android:name="com.sptproximitykit.ApiKey"
-            android:value="ENTER_YOURS_HERE" /> <!-- TODO change with your account's ApiKey-->
+            android:value="dcddd73c4a1e62a0555c20f841371c43" />
         <meta-data
             android:name="com.sptproximitykit.ApiSecret"
-            android:value="ENTER_YOURS_HERE" /> <!-- TODO change with your account's ApiSecret-->
+            android:value="9553c3dadfefd008c6741ba028c472191a7f5cb8" />
     </application>
 
 </manifest>
