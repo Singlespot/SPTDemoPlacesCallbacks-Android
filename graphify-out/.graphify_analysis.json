@@ -37,13 +37,12 @@
       "build"
     ],
     "3": [
-      "app_src_main_res_mipmap_hdpi_ic_launcher",
-      "app_src_main_res_mipmap_hdpi_ic_launcher_round",
       "app_src_main_res_mipmap_xhdpi_ic_launcher",
       "app_src_main_res_mipmap_xhdpi_ic_launcher_round",
-      "app_src_main_res_mipmap_xxhdpi_ic_launcher",
-      "app_src_main_res_mipmap_xxhdpi_ic_launcher_round",
+      "proximitykit_implementation_androidmanifest",
       "proximitykit_implementation_buildgradle",
+      "proximitykit_implementation_cmp",
+      "proximitykit_implementation_sptproximitykit",
       "readme"
     ],
     "4": [
@@ -63,18 +62,37 @@
       "gradlew_warn"
     ],
     "6": [
-      "proximitykit_implementation_androidmanifest",
-      "proximitykit_implementation_cmp",
-      "proximitykit_implementation_sptproximitykit"
-    ],
-    "7": [
       "proximitykit_implementation_mainactivity",
       "proximitykit_implementation_placecallbackreceiver"
     ],
-    "8": [
+    "7": [
       "app_build"
     ],
+    "8": [
+      "app_src_main_res_mipmap_hdpi_ic_launcher"
+    ],
     "9": [
+      "app_src_main_res_mipmap_hdpi_ic_launcher_round"
+    ],
+    "10": [
+      "app_src_main_res_mipmap_mdpi_ic_launcher"
+    ],
+    "11": [
+      "app_src_main_res_mipmap_mdpi_ic_launcher_round"
+    ],
+    "12": [
+      "app_src_main_res_mipmap_xxhdpi_ic_launcher"
+    ],
+    "13": [
+      "app_src_main_res_mipmap_xxhdpi_ic_launcher_round"
+    ],
+    "14": [
+      "app_src_main_res_mipmap_xxxhdpi_ic_launcher"
+    ],
+    "15": [
+      "app_src_main_res_mipmap_xxxhdpi_ic_launcher_round"
+    ],
+    "16": [
       "settings"
     ]
   },
@@ -82,24 +100,26 @@
     "0": 0.34545454545454546,
     "1": 0.4909090909090909,
     "2": 0.25,
-    "3": 0.25,
+    "3": 0.3333333333333333,
     "4": 0.5714285714285714,
     "5": 0.7,
-    "6": 0.6666666666666666,
+    "6": 1.0,
     "7": 1.0,
     "8": 1.0,
-    "9": 1.0
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0
   },
   "gods": [
     {
       "id": "proximitykit_implementation",
       "label": "ProximityKit Implementation Guide",
       "degree": 13
-    },
-    {
-      "id": "readme",
-      "label": "SPTDemoPlacesCallbacks-Android README",
-      "degree": 10
     },
     {
       "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
@@ -122,6 +142,11 @@
       "degree": 6
     },
     {
+      "id": "readme",
+      "label": "SPTDemoPlacesCallbacks-Android README",
+      "degree": 6
+    },
+    {
       "id": "proximitykit_implementation_mainactivity",
       "label": "MainActivity",
       "degree": 5
@@ -137,34 +162,12 @@
       "degree": 4
     },
     {
-      "id": "proximitykit_implementation_buildgradle",
-      "label": "build.gradle (Project)",
+      "id": "proximitykit_implementation_androidmanifest",
+      "label": "AndroidManifest.xml",
       "degree": 3
     }
   ],
   "surprises": [
-    {
-      "source": "App Launcher Icon (hdpi, square)",
-      "target": "SPTDemoPlacesCallbacks-Android README",
-      "source_files": [
-        "app/src/main/res/mipmap-hdpi/ic_launcher.png",
-        "README.md"
-      ],
-      "confidence": "INFERRED",
-      "relation": "conceptually_related_to",
-      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 image); connects across different repos/directories; peripheral node `App Launcher Icon (hdpi, square)` unexpectedly reaches hub `SPTDemoPlacesCallbacks-Android README`"
-    },
-    {
-      "source": "App Launcher Icon (hdpi, round)",
-      "target": "SPTDemoPlacesCallbacks-Android README",
-      "source_files": [
-        "app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
-        "README.md"
-      ],
-      "confidence": "INFERRED",
-      "relation": "conceptually_related_to",
-      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 image); connects across different repos/directories; peripheral node `App Launcher Icon (hdpi, round)` unexpectedly reaches hub `SPTDemoPlacesCallbacks-Android README`"
-    },
     {
       "source": "App Launcher Icon (xhdpi, square)",
       "target": "SPTDemoPlacesCallbacks-Android README",
@@ -174,7 +177,7 @@
       ],
       "confidence": "INFERRED",
       "relation": "conceptually_related_to",
-      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 image); connects across different repos/directories; peripheral node `App Launcher Icon (xhdpi, square)` unexpectedly reaches hub `SPTDemoPlacesCallbacks-Android README`"
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `App Launcher Icon (xhdpi, square)` unexpectedly reaches hub `SPTDemoPlacesCallbacks-Android README`"
     },
     {
       "source": "App Launcher Icon (xhdpi, round)",
@@ -185,22 +188,52 @@
       ],
       "confidence": "INFERRED",
       "relation": "conceptually_related_to",
-      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 image); connects across different repos/directories; peripheral node `App Launcher Icon (xhdpi, round)` unexpectedly reaches hub `SPTDemoPlacesCallbacks-Android README`"
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `App Launcher Icon (xhdpi, round)` unexpectedly reaches hub `SPTDemoPlacesCallbacks-Android README`"
     },
     {
-      "source": "App Launcher Icon (xxhdpi, square)",
-      "target": "SPTDemoPlacesCallbacks-Android README",
+      "source": "SPTDemoPlacesCallbacks-Android README",
+      "target": "ProximityKit Implementation Guide",
       "source_files": [
-        "app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
-        "README.md"
+        "README.md",
+        "PROXIMITYKIT_IMPLEMENTATION.md"
       ],
       "confidence": "INFERRED",
       "relation": "conceptually_related_to",
-      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 image); connects across different repos/directories; peripheral node `App Launcher Icon (xxhdpi, square)` unexpectedly reaches hub `SPTDemoPlacesCallbacks-Android README`"
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "SPTDemoPlacesCallbacks-Android README",
+      "target": "MainActivity",
+      "source_files": [
+        "README.md",
+        "PROXIMITYKIT_IMPLEMENTATION.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "SPTDemoPlacesCallbacks-Android README",
+      "target": "AndroidManifest.xml",
+      "source_files": [
+        "README.md",
+        "PROXIMITYKIT_IMPLEMENTATION.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
     }
   ],
-  "tokens": {
-    "input": 0,
-    "output": 0
-  }
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `PlaceCallbackReceiver` connect `Place Notification Receiver` to `Main Activity Setup`?",
+      "why": "High betweenness centrality (0.071) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `App Launcher Icon (xxhdpi, square)`, `App Launcher Icon (xxhdpi, round)`, `App Launcher Icon (xhdpi, square)` to the rest of the system?",
+      "why": "10 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
 }

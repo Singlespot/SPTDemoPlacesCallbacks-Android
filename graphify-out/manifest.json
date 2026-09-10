@@ -1,43 +1,43 @@
 {
   "app/build.gradle": {
-    "mtime": 1787738043.1731281,
-    "seen": 1787738889.9534569,
+    "mtime": 1789040760.5313866,
+    "seen": 1789040783.1281781,
     "ast_hash": "3028adb253c144fcf401a76bb85e9643",
     "semantic_hash": "3028adb253c144fcf401a76bb85e9643"
   },
   "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt": {
-    "mtime": 1787738043.1741009,
-    "seen": 1787738889.9534605,
+    "mtime": 1789040760.5316432,
+    "seen": 1789040783.128183,
     "ast_hash": "6aef8c72da8855d079d5c1fdc8346ab8",
     "semantic_hash": "6aef8c72da8855d079d5c1fdc8346ab8"
   },
   "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt": {
-    "mtime": 1787738043.1743734,
-    "seen": 1787738889.9534621,
+    "mtime": 1789040760.5317678,
+    "seen": 1789040783.1281848,
     "ast_hash": "873177f9d52d0b7fd751efc65bd7a5bb",
     "semantic_hash": "873177f9d52d0b7fd751efc65bd7a5bb"
   },
   "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt": {
-    "mtime": 1787738043.1743734,
-    "seen": 1787738889.9534628,
+    "mtime": 1789040760.5317678,
+    "seen": 1789040783.1281857,
     "ast_hash": "b578c459b2b13f2f91684d22542c46ad",
     "semantic_hash": "b578c459b2b13f2f91684d22542c46ad"
   },
   "build.gradle": {
-    "mtime": 1787738043.1770313,
-    "seen": 1787738889.9534636,
+    "mtime": 1789040760.5329447,
+    "seen": 1789040783.1281867,
     "ast_hash": "29e906a14152c27b300078c1b8da7ff3",
     "semantic_hash": "29e906a14152c27b300078c1b8da7ff3"
   },
   "gradlew": {
-    "mtime": 1787738043.1777465,
-    "seen": 1787738889.9534643,
+    "mtime": 1789040760.5333438,
+    "seen": 1789040783.1281874,
     "ast_hash": "857faf4b42fc9e324fb40b7223f2a94a",
     "semantic_hash": "857faf4b42fc9e324fb40b7223f2a94a"
   },
   "settings.gradle": {
-    "mtime": 1787738043.1777465,
-    "seen": 1787738889.9534647,
+    "mtime": 1789040760.5335307,
+    "seen": 1789040783.1281881,
     "ast_hash": "3028eee7c1f6925537723fec6423e308",
     "semantic_hash": "3028eee7c1f6925537723fec6423e308"
   },
@@ -66,14 +66,14 @@
     "semantic_hash": "698fe3c4ded44129534ed811a4024bbc"
   },
   "app/src/main/res/mipmap-mdpi/ic_launcher.png": {
-    "mtime": 1787738043.1756313,
-    "seen": 1787738889.9534674,
+    "mtime": 1789040760.5322764,
+    "seen": 1789040783.1281888,
     "ast_hash": "472c3ecb86996bed8516b338935a51d0",
     "semantic_hash": "472c3ecb86996bed8516b338935a51d0"
   },
   "app/src/main/res/mipmap-mdpi/ic_launcher_round.png": {
-    "mtime": 1787738043.175844,
-    "seen": 1787738889.953468,
+    "mtime": 1789040760.532372,
+    "seen": 1789040783.12819,
     "ast_hash": "f3aac23c5162c50c0a41cdd205a004a8",
     "semantic_hash": "f3aac23c5162c50c0a41cdd205a004a8"
   },
@@ -102,14 +102,14 @@
     "semantic_hash": "9e3000786992bbd78c3f075df7d2d4b3"
   },
   "app/src/main/res/mipmap-xxxhdpi/ic_launcher.png": {
-    "mtime": 1787738043.1763976,
-    "seen": 1787738889.953471,
+    "mtime": 1789040760.5326095,
+    "seen": 1789040783.128191,
     "ast_hash": "1e49d495a78909ab8754ec436bc39147",
     "semantic_hash": "1e49d495a78909ab8754ec436bc39147"
   },
   "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png": {
-    "mtime": 1787738043.1767032,
-    "seen": 1787738889.9534714,
+    "mtime": 1789040760.5327713,
+    "seen": 1789040783.128192,
     "ast_hash": "5800e2a5dbde6ab1c96157767f29ef04",
     "semantic_hash": "5800e2a5dbde6ab1c96157767f29ef04"
   }
