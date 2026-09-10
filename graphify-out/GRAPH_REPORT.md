@@ -6,10 +6,10 @@
 ## Summary
 - 61 nodes · 94 edges · 17 communities (6 shown, 9 thin omitted)
 - Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.68)
-- Token cost: 44,191 input · 276 output
+- Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4421d3a7`
+- Built from commit: `73a88d3b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -89,7 +89,7 @@ Cohesion: 0.70
 Nodes (4): gradlew script, die(), save(), warn()
 
 ## Knowledge Gaps
-- **10 isolated node(s):** `App Launcher Icon (xxhdpi, square)`, `App Launcher Icon (xxhdpi, round)`, `App Launcher Icon (xhdpi, square)`, `App Launcher Icon (xhdpi, round)`, `App Launcher Icon (hdpi, square)` (+5 more)
+- **10 isolated node(s):** `App Launcher Icon (mdpi)`, `App Launcher Icon Round (mdpi)`, `App Launcher Icon (xxhdpi, square)`, `App Launcher Icon (xxhdpi, round)`, `App Launcher Icon (xxxhdpi)` (+5 more)
   These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 15 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -98,5 +98,5 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `PlaceCallbackReceiver` connect `Place Notification Receiver` to `Main Activity Setup`?**
   _High betweenness centrality (0.071) - this node is a cross-community bridge._
-- **What connects `App Launcher Icon (xxhdpi, square)`, `App Launcher Icon (xxhdpi, round)`, `App Launcher Icon (xhdpi, square)` to the rest of the system?**
+- **What connects `App Launcher Icon (mdpi)`, `App Launcher Icon Round (mdpi)`, `App Launcher Icon (xxhdpi, square)` to the rest of the system?**
   _10 weakly-connected nodes found - possible documentation gaps or missing edges._

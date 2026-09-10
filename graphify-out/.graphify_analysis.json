@@ -232,7 +232,7 @@
     },
     {
       "type": "isolated_nodes",
-      "question": "What connects `App Launcher Icon (xxhdpi, square)`, `App Launcher Icon (xxhdpi, round)`, `App Launcher Icon (xhdpi, square)` to the rest of the system?",
+      "question": "What connects `App Launcher Icon (mdpi)`, `App Launcher Icon Round (mdpi)`, `App Launcher Icon (xxhdpi, square)` to the rest of the system?",
       "why": "10 weakly-connected nodes found - possible documentation gaps or missing edges."
     }
   ]
