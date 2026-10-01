@@ -1,4 +1,4 @@
-# Graph Report - SPTDemoPlacesCallbacks-Android  (2026-09-29)
+# Graph Report - SPTDemoPlacesCallbacks-Android  (2026-10-01)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
