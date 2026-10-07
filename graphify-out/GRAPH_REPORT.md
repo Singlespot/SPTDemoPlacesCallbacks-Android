@@ -1,15 +1,15 @@
-# Graph Report - /home/sebastien/src/SPTDemoPlacesCallbacks-Android  (2026-10-07)
+# Graph Report - SPTDemoPlacesCallbacks-Android  (2026-10-07)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
 
 ## Summary
-- 55 nodes · 94 edges · 11 communities (7 shown, 4 thin omitted)
-- Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.68)
-- Token cost: 0 input · 0 output
+- 59 nodes · 92 edges · 15 communities (1 shown, 14 thin omitted)
+- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.73)
+- Token cost: 46,665 input · 64 output
 
 ## Graph Freshness
-- Built from commit: `d522ca47`
+- Built from commit: `d9573453`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -18,12 +18,14 @@
 - Place Notification Receiver
 - Permission Utilities
 - Android App Manifest & Assets
-- ProximityKit Place Callbacks
-- Gradle Wrapper Script
 - App Entry Components
 - App Build Config
 - Launcher Icon HDPI Square
 - Launcher Icon HDPI Round
+- Launcher Icon MDPI
+- Square App Launcher Icon
+- Round App Launcher Icon
+- High-Density Launcher Icon
 
 ## God Nodes (most connected - your core abstractions)
 1. `ProximityKit Implementation Guide` - 13 edges
@@ -31,22 +33,20 @@
 3. `PlaceCallbackReceiver` - 9 edges
 4. `SPTProximityKit.geodata Interface` - 7 edges
 5. `SPTProximityKit SDK` - 6 edges
-6. `SPTDemoPlacesCallbacks-Android README` - 6 edges
-7. `MainActivity` - 5 edges
-8. `PermissionUtils` - 4 edges
+6. `MainActivity` - 5 edges
+7. `PermissionUtils` - 4 edges
+8. `SPTDemoPlacesCallbacks-Android README` - 4 edges
 9. `SPTPlaceCallbackConfig` - 4 edges
 10. `AndroidManifest.xml` - 3 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `App Launcher Icon Round (mdpi)` --conceptually_related_to--> `SPTDemoPlacesCallbacks-Android README`  [INFERRED]
-  app/src/main/res/mipmap-mdpi/ic_launcher_round.png → README.md
-- `App Launcher Icon (hdpi, square)` --conceptually_related_to--> `SPTDemoPlacesCallbacks-Android README`  [INFERRED]
-  app/src/main/res/mipmap-hdpi/ic_launcher.png → README.md
 - `SPTDemoPlacesCallbacks-Android README` --conceptually_related_to--> `ProximityKit Implementation Guide`  [INFERRED]
   README.md → PROXIMITYKIT_IMPLEMENTATION.md
-- `SPTDemoPlacesCallbacks-Android README` --references--> `MainActivity`  [EXTRACTED]
-  README.md → PROXIMITYKIT_IMPLEMENTATION.md
 - `SPTDemoPlacesCallbacks-Android README` --references--> `AndroidManifest.xml`  [EXTRACTED]
+  README.md → PROXIMITYKIT_IMPLEMENTATION.md
+- `SPTDemoPlacesCallbacks-Android README` --references--> `build.gradle (Project)`  [EXTRACTED]
+  README.md → PROXIMITYKIT_IMPLEMENTATION.md
+- `SPTDemoPlacesCallbacks-Android README` --references--> `MainActivity`  [EXTRACTED]
   README.md → PROXIMITYKIT_IMPLEMENTATION.md
 
 ## Import Cycles
@@ -54,44 +54,25 @@
 
 ## Hyperedges (group relationships)
 - **Place Callback Configuration Flow** — proximitykit_implementation_mainactivity, proximitykit_implementation_sptproximitykit, proximitykit_implementation_geodata, proximitykit_implementation_sptplacecallbackconfig, proximitykit_implementation_placecallbackreceiver, proximitykit_implementation_home_place, proximitykit_implementation_work_place, proximitykit_implementation_custom_place [EXTRACTED 0.85]
-- **Default Android Studio Launcher Icon Set (all densities)** — app_src_main_res_mipmap_mdpi_ic_launcher, app_src_main_res_mipmap_mdpi_ic_launcher_round, app_src_main_res_mipmap_xxxhdpi_ic_launcher, app_src_main_res_mipmap_xxxhdpi_ic_launcher_round [EXTRACTED 0.90]
+- **Default Android Studio Launcher Icon Set (all densities)** — app_src_main_res_mipmap_mdpi_ic_launcher, app_src_main_res_mipmap_mdpi_ic_launcher_round, app_src_main_res_mipmap_xxxhdpi_ic_launcher, app_src_main_res_mipmap_xxhdpi_ic_launcher_round [EXTRACTED 0.90]
 - **SDK Setup Steps** — proximitykit_implementation_buildgradle, proximitykit_implementation_androidmanifest, proximitykit_implementation_mainactivity [EXTRACTED 0.90]
+- **App Launcher Icon Density/Shape Variants** — app_src_main_res_mipmap_mdpi_ic_launcher_round, app_src_main_res_mipmap_xhdpi_ic_launcher, app_src_main_res_mipmap_xhdpi_ic_launcher_round, app_src_main_res_mipmap_xxhdpi_ic_launcher, app_src_main_res_mipmap_xxhdpi_ic_launcher_round [INFERRED 0.90]
 
-## Communities (11 total, 4 thin omitted)
+## Communities (15 total, 14 thin omitted)
 
 ### Community 0 - "Main Activity Setup"
-Cohesion: 0.35
-Nodes (4): MainActivity, AppCompatActivity, Bundle, TextView
-
-### Community 1 - "Place Notification Receiver"
-Cohesion: 0.49
-Nodes (4): PlaceCallbackReceiver, BroadcastReceiver, Context, Intent
-
-### Community 2 - "Permission Utilities"
-Cohesion: 0.25
-Nodes (3): android, androidx, PermissionUtils
-
-### Community 3 - "Android App Manifest & Assets"
-Cohesion: 0.33
-Nodes (7): App Launcher Icon (hdpi, square), App Launcher Icon Round (mdpi), AndroidManifest.xml, build.gradle (Project), SPTProximityKit.cmp Interface, SPTProximityKit SDK, SPTDemoPlacesCallbacks-Android README
-
-### Community 4 - "ProximityKit Place Callbacks"
-Cohesion: 0.57
-Nodes (7): ProximityKit Implementation Guide, Custom Place Callback, SPTProximityKit.geodata Interface, Home Place Callback, PlaceTransition Enum, SPTPlaceCallbackConfig, Work Place Callback
-
-### Community 5 - "Gradle Wrapper Script"
-Cohesion: 0.70
-Nodes (4): gradlew script, die(), save(), warn()
+Cohesion: 0.32
+Nodes (14): ProximityKit Implementation Guide, AndroidManifest.xml, build.gradle (Project), SPTProximityKit.cmp Interface, Custom Place Callback, SPTProximityKit.geodata Interface, Home Place Callback, MainActivity (+6 more)
 
 ## Knowledge Gaps
-- **5 isolated node(s):** `app/build.gradle`, `App Launcher Icon (mdpi)`, `App Launcher Icon Round (mdpi)`, `App Launcher Icon (xxxhdpi)`, `App Launcher Icon (hdpi, square)`
-  These have ≤1 connection - possible missing edges or undocumented components.
-- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **8 isolated node(s):** `App Launcher Icon (xxxhdpi)`, `App Launcher Icon (hdpi, square)`, `App Launcher Icon (mdpi)`, `App Launcher Icon Round (mdpi)`, `App Launcher Icon (Round, XHDPI)` (+3 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 13 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `PlaceCallbackReceiver` connect `Place Notification Receiver` to `Main Activity Setup`?**
-  _High betweenness centrality (0.088) - this node is a cross-community bridge._
-- **What connects `app/build.gradle`, `App Launcher Icon (mdpi)`, `App Launcher Icon Round (mdpi)` to the rest of the system?**
-  _5 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `PlaceCallbackReceiver` connect `Permission Utilities` to `Place Notification Receiver`?**
+  _High betweenness centrality (0.076) - this node is a cross-community bridge._
+- **What connects `App Launcher Icon (xxxhdpi)`, `App Launcher Icon (hdpi, square)`, `App Launcher Icon (mdpi)` to the rest of the system?**
+  _8 weakly-connected nodes found - possible documentation gaps or missing edges._
