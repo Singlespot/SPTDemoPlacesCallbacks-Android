@@ -1,43 +1,36 @@
 {
   "app/build.gradle": {
-    "mtime": 1789040760.5313866,
-    "seen": 1789040783.1281781,
+    "mtime": 1791364641.5670927,
     "ast_hash": "3028adb253c144fcf401a76bb85e9643",
     "semantic_hash": "3028adb253c144fcf401a76bb85e9643"
   },
   "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt": {
-    "mtime": 1789040760.5316432,
-    "seen": 1789040783.128183,
+    "mtime": 1791364641.5673409,
     "ast_hash": "6aef8c72da8855d079d5c1fdc8346ab8",
     "semantic_hash": "6aef8c72da8855d079d5c1fdc8346ab8"
   },
   "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt": {
-    "mtime": 1789040760.5317678,
-    "seen": 1789040783.1281848,
+    "mtime": 1791364641.567432,
     "ast_hash": "873177f9d52d0b7fd751efc65bd7a5bb",
     "semantic_hash": "873177f9d52d0b7fd751efc65bd7a5bb"
   },
   "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt": {
-    "mtime": 1789040760.5317678,
-    "seen": 1789040783.1281857,
+    "mtime": 1791364641.567432,
     "ast_hash": "b578c459b2b13f2f91684d22542c46ad",
     "semantic_hash": "b578c459b2b13f2f91684d22542c46ad"
   },
   "build.gradle": {
-    "mtime": 1789040760.5329447,
-    "seen": 1789040783.1281867,
+    "mtime": 1791364641.5687056,
     "ast_hash": "29e906a14152c27b300078c1b8da7ff3",
     "semantic_hash": "29e906a14152c27b300078c1b8da7ff3"
   },
   "gradlew": {
-    "mtime": 1789040760.5333438,
-    "seen": 1789040783.1281874,
+    "mtime": 1791364641.569137,
     "ast_hash": "857faf4b42fc9e324fb40b7223f2a94a",
     "semantic_hash": "857faf4b42fc9e324fb40b7223f2a94a"
   },
   "settings.gradle": {
-    "mtime": 1789040760.5335307,
-    "seen": 1789040783.1281881,
+    "mtime": 1791364641.5693524,
     "ast_hash": "3028eee7c1f6925537723fec6423e308",
     "semantic_hash": "3028eee7c1f6925537723fec6423e308"
   },

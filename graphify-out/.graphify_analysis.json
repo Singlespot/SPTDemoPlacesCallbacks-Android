@@ -37,8 +37,8 @@
       "build"
     ],
     "3": [
-      "app_src_main_res_mipmap_xhdpi_ic_launcher",
-      "app_src_main_res_mipmap_xhdpi_ic_launcher_round",
+      "app_src_main_res_mipmap_hdpi_ic_launcher",
+      "app_src_main_res_mipmap_mdpi_ic_launcher_round",
       "proximitykit_implementation_androidmanifest",
       "proximitykit_implementation_buildgradle",
       "proximitykit_implementation_cmp",
@@ -69,30 +69,12 @@
       "app_build"
     ],
     "8": [
-      "app_src_main_res_mipmap_hdpi_ic_launcher"
-    ],
-    "9": [
-      "app_src_main_res_mipmap_hdpi_ic_launcher_round"
-    ],
-    "10": [
       "app_src_main_res_mipmap_mdpi_ic_launcher"
     ],
-    "11": [
-      "app_src_main_res_mipmap_mdpi_ic_launcher_round"
-    ],
-    "12": [
-      "app_src_main_res_mipmap_xxhdpi_ic_launcher"
-    ],
-    "13": [
-      "app_src_main_res_mipmap_xxhdpi_ic_launcher_round"
-    ],
-    "14": [
+    "9": [
       "app_src_main_res_mipmap_xxxhdpi_ic_launcher"
     ],
-    "15": [
-      "app_src_main_res_mipmap_xxxhdpi_ic_launcher_round"
-    ],
-    "16": [
+    "10": [
       "settings"
     ]
   },
@@ -107,13 +89,7 @@
     "7": 1.0,
     "8": 1.0,
     "9": 1.0,
-    "10": 1.0,
-    "11": 1.0,
-    "12": 1.0,
-    "13": 1.0,
-    "14": 1.0,
-    "15": 1.0,
-    "16": 1.0
+    "10": 1.0
   },
   "gods": [
     {
@@ -169,26 +145,26 @@
   ],
   "surprises": [
     {
-      "source": "App Launcher Icon (xhdpi, square)",
+      "source": "App Launcher Icon Round (mdpi)",
       "target": "SPTDemoPlacesCallbacks-Android README",
       "source_files": [
-        "app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+        "app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
         "README.md"
       ],
       "confidence": "INFERRED",
       "relation": "conceptually_related_to",
-      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `App Launcher Icon (xhdpi, square)` unexpectedly reaches hub `SPTDemoPlacesCallbacks-Android README`"
+      "why": "inferred connection - not explicitly stated in source; crosses file types (image ↔ doc); connects across different repos/directories; peripheral node `App Launcher Icon Round (mdpi)` unexpectedly reaches hub `SPTDemoPlacesCallbacks-Android README`"
     },
     {
-      "source": "App Launcher Icon (xhdpi, round)",
+      "source": "App Launcher Icon (hdpi, square)",
       "target": "SPTDemoPlacesCallbacks-Android README",
       "source_files": [
-        "app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+        "app/src/main/res/mipmap-hdpi/ic_launcher.png",
         "README.md"
       ],
       "confidence": "INFERRED",
       "relation": "conceptually_related_to",
-      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `App Launcher Icon (xhdpi, round)` unexpectedly reaches hub `SPTDemoPlacesCallbacks-Android README`"
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `App Launcher Icon (hdpi, square)` unexpectedly reaches hub `SPTDemoPlacesCallbacks-Android README`"
     },
     {
       "source": "SPTDemoPlacesCallbacks-Android README",
@@ -228,12 +204,12 @@
     {
       "type": "bridge_node",
       "question": "Why does `PlaceCallbackReceiver` connect `Place Notification Receiver` to `Main Activity Setup`?",
-      "why": "High betweenness centrality (0.071) - this node is a cross-community bridge."
+      "why": "High betweenness centrality (0.088) - this node is a cross-community bridge."
     },
     {
       "type": "isolated_nodes",
-      "question": "What connects `App Launcher Icon (mdpi)`, `App Launcher Icon Round (mdpi)`, `App Launcher Icon (xxhdpi, square)` to the rest of the system?",
-      "why": "10 weakly-connected nodes found - possible documentation gaps or missing edges."
+      "question": "What connects `app/build.gradle`, `App Launcher Icon (mdpi)`, `App Launcher Icon Round (mdpi)` to the rest of the system?",
+      "why": "5 weakly-connected nodes found - possible documentation gaps or missing edges."
     }
   ]
 }

@@ -52,7 +52,6 @@
   },
   "nodes": [
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
       "label": "MainActivity",
       "_callable": true,
       "_callable_class": true,
@@ -62,10 +61,10 @@
       "file_type": "code",
       "norm_label": "mainactivity",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L15"
+      "source_location": "L15",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
       "label": "PlaceCallbackReceiver",
       "_callable": true,
       "_callable_class": true,
@@ -75,10 +74,10 @@
       "file_type": "code",
       "norm_label": "placecallbackreceiver",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L17"
+      "source_location": "L17",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils",
       "label": "PermissionUtils",
       "_callable": true,
       "_callable_class": true,
@@ -88,10 +87,10 @@
       "file_type": "code",
       "norm_label": "permissionutils",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
-      "source_location": "L14"
+      "source_location": "L14",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializeproximitykit",
       "label": ".initializeProximityKit()",
       "_callable": true,
       "_origin": "ast",
@@ -100,10 +99,10 @@
       "file_type": "code",
       "norm_label": ".initializeproximitykit()",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L104"
+      "source_location": "L104",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializeproximitykit"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializespt",
       "label": ".initializeSPT()",
       "_callable": true,
       "_origin": "ast",
@@ -112,10 +111,10 @@
       "file_type": "code",
       "norm_label": ".initializespt()",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L75"
+      "source_location": "L75",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializespt"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_oncreate",
       "label": ".onCreate()",
       "_callable": true,
       "_origin": "ast",
@@ -124,10 +123,10 @@
       "file_type": "code",
       "norm_label": ".oncreate()",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L63"
+      "source_location": "L63",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_oncreate"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_requestlocationpermissions",
       "label": ".requestLocationPermissions()",
       "_callable": true,
       "_origin": "ast",
@@ -136,10 +135,10 @@
       "file_type": "code",
       "norm_label": ".requestlocationpermissions()",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L100"
+      "source_location": "L100",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_requestlocationpermissions"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_requestnotificationpermission",
       "label": ".requestNotificationPermission()",
       "_callable": true,
       "_origin": "ast",
@@ -148,10 +147,10 @@
       "file_type": "code",
       "norm_label": ".requestnotificationpermission()",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L92"
+      "source_location": "L92",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_requestnotificationpermission"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_setupplacecallbacks",
       "label": ".setupPlaceCallbacks()",
       "_callable": true,
       "_origin": "ast",
@@ -160,10 +159,10 @@
       "file_type": "code",
       "norm_label": ".setupplacecallbacks()",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L130"
+      "source_location": "L130",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_setupplacecallbacks"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_createnotificationchannel",
       "label": ".createNotificationChannel()",
       "_callable": true,
       "_origin": "ast",
@@ -172,10 +171,10 @@
       "file_type": "code",
       "norm_label": ".createnotificationchannel()",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L71"
+      "source_location": "L71",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_createnotificationchannel"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_hasnotificationpermission",
       "label": ".hasNotificationPermission()",
       "_callable": true,
       "_origin": "ast",
@@ -184,10 +183,10 @@
       "file_type": "code",
       "norm_label": ".hasnotificationpermission()",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L60"
+      "source_location": "L60",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_hasnotificationpermission"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_onreceive",
       "label": ".onReceive()",
       "_callable": true,
       "_origin": "ast",
@@ -196,10 +195,10 @@
       "file_type": "code",
       "norm_label": ".onreceive()",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L27"
+      "source_location": "L27",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_onreceive"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showcustomplacenotification",
       "label": ".showCustomPlaceNotification()",
       "_callable": true,
       "_origin": "ast",
@@ -208,10 +207,10 @@
       "file_type": "code",
       "norm_label": ".showcustomplacenotification()",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L131"
+      "source_location": "L131",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showcustomplacenotification"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showhomenotification",
       "label": ".showHomeNotification()",
       "_callable": true,
       "_origin": "ast",
@@ -220,10 +219,10 @@
       "file_type": "code",
       "norm_label": ".showhomenotification()",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L91"
+      "source_location": "L91",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showhomenotification"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showworknotification",
       "label": ".showWorkNotification()",
       "_callable": true,
       "_origin": "ast",
@@ -232,10 +231,10 @@
       "file_type": "code",
       "norm_label": ".showworknotification()",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L111"
+      "source_location": "L111",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showworknotification"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_getlocationpermissions",
       "label": ".getLocationPermissions()",
       "_callable": true,
       "_origin": "ast",
@@ -244,10 +243,10 @@
       "file_type": "code",
       "norm_label": ".getlocationpermissions()",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
-      "source_location": "L33"
+      "source_location": "L33",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_getlocationpermissions"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_haslocationpermissions",
       "label": ".hasLocationPermissions()",
       "_callable": true,
       "_origin": "ast",
@@ -256,10 +255,10 @@
       "file_type": "code",
       "norm_label": ".haslocationpermissions()",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
-      "source_location": "L19"
+      "source_location": "L19",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_haslocationpermissions"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_hasnotificationpermission",
       "label": ".hasNotificationPermission()",
       "_callable": true,
       "_origin": "ast",
@@ -268,10 +267,10 @@
       "file_type": "code",
       "norm_label": ".hasnotificationpermission()",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
-      "source_location": "L40"
+      "source_location": "L40",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_hasnotificationpermission"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity",
       "label": "MainActivity.kt",
       "_origin": "ast",
       "community": 0,
@@ -279,10 +278,10 @@
       "file_type": "code",
       "norm_label": "mainactivity.kt",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L1"
+      "source_location": "L1",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity"
     },
     {
-      "id": "appcompatactivity",
       "label": "AppCompatActivity",
       "_origin": "ast",
       "community": 0,
@@ -290,10 +289,10 @@
       "file_type": "code",
       "norm_label": "appcompatactivity",
       "source_file": "",
-      "source_location": ""
+      "source_location": "",
+      "id": "appcompatactivity"
     },
     {
-      "id": "bundle",
       "label": "Bundle",
       "_origin": "ast",
       "community": 0,
@@ -301,10 +300,10 @@
       "file_type": "code",
       "norm_label": "bundle",
       "source_file": "",
-      "source_location": ""
+      "source_location": "",
+      "id": "bundle"
     },
     {
-      "id": "textview",
       "label": "TextView",
       "_origin": "ast",
       "community": 0,
@@ -312,10 +311,10 @@
       "file_type": "code",
       "norm_label": "textview",
       "source_file": "",
-      "source_location": ""
+      "source_location": "",
+      "id": "textview"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver",
       "label": "PlaceCallbackReceiver.kt",
       "_origin": "ast",
       "community": 1,
@@ -323,10 +322,10 @@
       "file_type": "code",
       "norm_label": "placecallbackreceiver.kt",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L1"
+      "source_location": "L1",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver"
     },
     {
-      "id": "broadcastreceiver",
       "label": "BroadcastReceiver",
       "_origin": "ast",
       "community": 1,
@@ -334,10 +333,10 @@
       "file_type": "code",
       "norm_label": "broadcastreceiver",
       "source_file": "",
-      "source_location": ""
+      "source_location": "",
+      "id": "broadcastreceiver"
     },
     {
-      "id": "context",
       "label": "Context",
       "_origin": "ast",
       "community": 1,
@@ -345,10 +344,10 @@
       "file_type": "code",
       "norm_label": "context",
       "source_file": "",
-      "source_location": ""
+      "source_location": "",
+      "id": "context"
     },
     {
-      "id": "intent",
       "label": "Intent",
       "_origin": "ast",
       "community": 1,
@@ -356,21 +355,21 @@
       "file_type": "code",
       "norm_label": "intent",
       "source_file": "",
-      "source_location": ""
+      "source_location": "",
+      "id": "intent"
     },
     {
-      "id": "settings",
       "label": "settings.gradle",
       "_origin": "ast",
-      "community": 16,
-      "community_name": "Gradle Settings",
+      "community": 10,
+      "community_name": "Launcher Icon MDPI",
       "file_type": "code",
       "norm_label": "settings.gradle",
       "source_file": "settings.gradle",
-      "source_location": "L1"
+      "source_location": "L1",
+      "id": "settings"
     },
     {
-      "id": "android",
       "label": "android",
       "_origin": "ast",
       "community": 2,
@@ -378,10 +377,10 @@
       "file_type": "code",
       "norm_label": "android",
       "source_file": "",
-      "source_location": ""
+      "source_location": "",
+      "id": "android"
     },
     {
-      "id": "androidx",
       "label": "androidx",
       "_origin": "ast",
       "community": 2,
@@ -389,10 +388,10 @@
       "file_type": "code",
       "norm_label": "androidx",
       "source_file": "",
-      "source_location": ""
+      "source_location": "",
+      "id": "androidx"
     },
     {
-      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils",
       "label": "PermissionUtils.kt",
       "_origin": "ast",
       "community": 2,
@@ -400,10 +399,10 @@
       "file_type": "code",
       "norm_label": "permissionutils.kt",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
-      "source_location": "L1"
+      "source_location": "L1",
+      "id": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils"
     },
     {
-      "id": "build",
       "label": "build.gradle",
       "_origin": "ast",
       "community": 2,
@@ -411,10 +410,10 @@
       "file_type": "code",
       "norm_label": "build.gradle",
       "source_file": "build.gradle",
-      "source_location": "L1"
+      "source_location": "L1",
+      "id": "build"
     },
     {
-      "id": "gradlew",
       "label": "gradlew",
       "_origin": "ast",
       "community": 5,
@@ -426,10 +425,10 @@
       },
       "norm_label": "gradlew",
       "source_file": "gradlew",
-      "source_location": "L1"
+      "source_location": "L1",
+      "id": "gradlew"
     },
     {
-      "id": "gradlew__entry",
       "label": "gradlew script",
       "_origin": "ast",
       "community": 5,
@@ -441,10 +440,10 @@
       },
       "norm_label": "gradlew script",
       "source_file": "gradlew",
-      "source_location": "L1"
+      "source_location": "L1",
+      "id": "gradlew__entry"
     },
     {
-      "id": "gradlew_die",
       "label": "die()",
       "_origin": "ast",
       "community": 5,
@@ -456,10 +455,10 @@
       },
       "norm_label": "die()",
       "source_file": "gradlew",
-      "source_location": "L40"
+      "source_location": "L40",
+      "id": "gradlew_die"
     },
     {
-      "id": "gradlew_save",
       "label": "save()",
       "_origin": "ast",
       "community": 5,
@@ -471,10 +470,10 @@
       },
       "norm_label": "save()",
       "source_file": "gradlew",
-      "source_location": "L158"
+      "source_location": "L158",
+      "id": "gradlew_save"
     },
     {
-      "id": "gradlew_warn",
       "label": "warn()",
       "_origin": "ast",
       "community": 5,
@@ -486,10 +485,10 @@
       },
       "norm_label": "warn()",
       "source_file": "gradlew",
-      "source_location": "L36"
+      "source_location": "L36",
+      "id": "gradlew_warn"
     },
     {
-      "id": "app_build",
       "label": "app/build.gradle",
       "_origin": "ast",
       "community": 7,
@@ -497,106 +496,58 @@
       "file_type": "code",
       "norm_label": "app/build.gradle",
       "source_file": "app/build.gradle",
-      "source_location": "L1"
+      "source_location": "L1",
+      "id": "app_build"
     },
     {
-      "id": "app_src_main_res_mipmap_mdpi_ic_launcher",
       "label": "App Launcher Icon (mdpi)",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
-      "community": 10,
-      "community_name": "Launcher Icon MDPI",
+      "community": 8,
+      "community_name": "Launcher Icon HDPI Square",
       "contributor": null,
       "file_type": "image",
       "norm_label": "app launcher icon (mdpi)",
       "rationale": null,
       "source_file": "app/src/main/res/mipmap-mdpi/ic_launcher.png",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "app_src_main_res_mipmap_mdpi_ic_launcher"
     },
     {
-      "id": "app_src_main_res_mipmap_mdpi_ic_launcher_round",
       "label": "App Launcher Icon Round (mdpi)",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
-      "community": 11,
-      "community_name": "Launcher Icon MDPI Round",
+      "community": 3,
+      "community_name": "Android App Manifest & Assets",
       "contributor": null,
       "file_type": "image",
       "norm_label": "app launcher icon round (mdpi)",
       "rationale": null,
       "source_file": "app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "app_src_main_res_mipmap_mdpi_ic_launcher_round"
     },
     {
-      "id": "app_src_main_res_mipmap_xxhdpi_ic_launcher",
-      "label": "App Launcher Icon (xxhdpi, square)",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 12,
-      "community_name": "Launcher Icon XXHDPI Square",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "app launcher icon (xxhdpi, square)",
-      "rationale": null,
-      "source_file": "app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "app_src_main_res_mipmap_xxhdpi_ic_launcher_round",
-      "label": "App Launcher Icon (xxhdpi, round)",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 13,
-      "community_name": "Launcher Icon XXHDPI Round",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "app launcher icon (xxhdpi, round)",
-      "rationale": null,
-      "source_file": "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "app_src_main_res_mipmap_xxxhdpi_ic_launcher",
       "label": "App Launcher Icon (xxxhdpi)",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
-      "community": 14,
-      "community_name": "Launcher Icon XXXHDPI",
+      "community": 9,
+      "community_name": "Launcher Icon HDPI Round",
       "contributor": null,
       "file_type": "image",
       "norm_label": "app launcher icon (xxxhdpi)",
       "rationale": null,
       "source_file": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "app_src_main_res_mipmap_xxxhdpi_ic_launcher"
     },
     {
-      "id": "app_src_main_res_mipmap_xxxhdpi_ic_launcher_round",
-      "label": "App Launcher Icon Round (xxxhdpi)",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 15,
-      "community_name": "Launcher Icon XXXHDPI Round",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "app launcher icon round (xxxhdpi)",
-      "rationale": null,
-      "source_file": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "proximitykit_implementation_androidmanifest",
       "label": "AndroidManifest.xml",
       "_origin": "semantic",
       "author": null,
@@ -609,10 +560,10 @@
       "rationale": null,
       "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "proximitykit_implementation_androidmanifest"
     },
     {
-      "id": "proximitykit_implementation_buildgradle",
       "label": "build.gradle (Project)",
       "_origin": "semantic",
       "author": null,
@@ -625,10 +576,10 @@
       "rationale": null,
       "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "proximitykit_implementation_buildgradle"
     },
     {
-      "id": "proximitykit_implementation_cmp",
       "label": "SPTProximityKit.cmp Interface",
       "_origin": "semantic",
       "author": null,
@@ -641,10 +592,10 @@
       "rationale": "Location permissions are handled by the app rather than the SDK in this version; CMP management was split into its own interface.",
       "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "proximitykit_implementation_cmp"
     },
     {
-      "id": "proximitykit_implementation_sptproximitykit",
       "label": "SPTProximityKit SDK",
       "_origin": "semantic",
       "author": null,
@@ -657,10 +608,10 @@
       "rationale": null,
       "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "proximitykit_implementation_sptproximitykit"
     },
     {
-      "id": "readme",
       "label": "SPTDemoPlacesCallbacks-Android README",
       "_origin": "semantic",
       "author": null,
@@ -673,42 +624,10 @@
       "rationale": null,
       "source_file": "README.md",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "readme"
     },
     {
-      "id": "app_src_main_res_mipmap_xhdpi_ic_launcher",
-      "label": "App Launcher Icon (xhdpi, square)",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 3,
-      "community_name": "Android App Manifest & Assets",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "app launcher icon (xhdpi, square)",
-      "rationale": null,
-      "source_file": "app/src/main/res/mipmap-xhdpi/ic_launcher.png",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "app_src_main_res_mipmap_xhdpi_ic_launcher_round",
-      "label": "App Launcher Icon (xhdpi, round)",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 3,
-      "community_name": "Android App Manifest & Assets",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "app launcher icon (xhdpi, round)",
-      "rationale": null,
-      "source_file": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "proximitykit_implementation_geodata",
       "label": "SPTProximityKit.geodata Interface",
       "_origin": "semantic",
       "author": null,
@@ -721,10 +640,10 @@
       "rationale": null,
       "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "proximitykit_implementation_geodata"
     },
     {
-      "id": "proximitykit_implementation_placetransition",
       "label": "PlaceTransition Enum",
       "_origin": "semantic",
       "author": null,
@@ -737,10 +656,10 @@
       "rationale": null,
       "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "proximitykit_implementation_placetransition"
     },
     {
-      "id": "proximitykit_implementation_sptplacecallbackconfig",
       "label": "SPTPlaceCallbackConfig",
       "_origin": "semantic",
       "author": null,
@@ -753,10 +672,10 @@
       "rationale": null,
       "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "proximitykit_implementation_sptplacecallbackconfig"
     },
     {
-      "id": "proximitykit_implementation_custom_place",
       "label": "Custom Place Callback",
       "_origin": "semantic",
       "author": null,
@@ -769,10 +688,10 @@
       "rationale": null,
       "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "proximitykit_implementation_custom_place"
     },
     {
-      "id": "proximitykit_implementation_home_place",
       "label": "Home Place Callback",
       "_origin": "semantic",
       "author": null,
@@ -785,10 +704,10 @@
       "rationale": null,
       "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "proximitykit_implementation_home_place"
     },
     {
-      "id": "proximitykit_implementation_work_place",
       "label": "Work Place Callback",
       "_origin": "semantic",
       "author": null,
@@ -801,10 +720,10 @@
       "rationale": null,
       "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "proximitykit_implementation_work_place"
     },
     {
-      "id": "proximitykit_implementation",
       "label": "ProximityKit Implementation Guide",
       "_origin": "semantic",
       "author": null,
@@ -817,10 +736,10 @@
       "rationale": null,
       "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "proximitykit_implementation"
     },
     {
-      "id": "proximitykit_implementation_mainactivity",
       "label": "MainActivity",
       "_origin": "semantic",
       "author": null,
@@ -833,10 +752,10 @@
       "rationale": null,
       "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "proximitykit_implementation_mainactivity"
     },
     {
-      "id": "proximitykit_implementation_placecallbackreceiver",
       "label": "PlaceCallbackReceiver",
       "_origin": "semantic",
       "author": null,
@@ -849,261 +768,39 @@
       "rationale": null,
       "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
       "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "proximitykit_implementation_placecallbackreceiver"
     },
     {
-      "id": "app_src_main_res_mipmap_hdpi_ic_launcher",
       "label": "App Launcher Icon (hdpi, square)",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
-      "community": 8,
-      "community_name": "Launcher Icon HDPI Square",
+      "community": 3,
+      "community_name": "Android App Manifest & Assets",
       "contributor": null,
       "file_type": "image",
       "norm_label": "app launcher icon (hdpi, square)",
       "rationale": null,
       "source_file": "app/src/main/res/mipmap-hdpi/ic_launcher.png",
       "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "app_src_main_res_mipmap_hdpi_ic_launcher_round",
-      "label": "App Launcher Icon (hdpi, round)",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 9,
-      "community_name": "Launcher Icon HDPI Round",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "app launcher icon (hdpi, round)",
-      "rationale": null,
-      "source_file": "app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
-      "source_location": null,
-      "source_url": null
+      "source_url": null,
+      "id": "app_src_main_res_mipmap_hdpi_ic_launcher"
     }
   ],
   "links": [
     {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializeproximitykit",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_setupplacecallbacks",
-      "relation": "calls",
+      "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "context": "call",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L114",
-      "weight": 1.0
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity"
     },
     {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializespt",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializeproximitykit",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L81",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializespt",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_requestnotificationpermission",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L84",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializespt",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_requestlocationpermissions",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L88",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_oncreate",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializespt",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L72",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_requestnotificationpermission",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializeproximitykit",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L96",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_onreceive",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showhomenotification",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L46",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_onreceive",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showworknotification",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L49",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_onreceive",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showcustomplacenotification",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L54",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showcustomplacenotification",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_createnotificationchannel",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L133",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showcustomplacenotification",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_hasnotificationpermission",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L146",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showhomenotification",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_hasnotificationpermission",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L106",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showhomenotification",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_createnotificationchannel",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L93",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showworknotification",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_createnotificationchannel",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L113",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showworknotification",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_hasnotificationpermission",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L126",
-      "weight": 1.0
-    },
-    {
-      "source": "gradlew__entry",
-      "target": "gradlew_warn",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "gradlew",
-      "source_location": "L100",
-      "weight": 1.0
-    },
-    {
-      "source": "gradlew__entry",
-      "target": "gradlew_save",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "gradlew",
-      "source_location": "L162",
-      "weight": 1.0
-    },
-    {
-      "source": "gradlew__entry",
-      "target": "gradlew_die",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "gradlew",
-      "source_location": "L78",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializeproximitykit",
       "relation": "method",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -1111,11 +808,44 @@
       "context": "call",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
       "source_location": "L104",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializeproximitykit"
     },
     {
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
+      "source_location": "L75",
+      "weight": 1.0,
       "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_requestnotificationpermission",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializespt"
+    },
+    {
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_oncreate"
+    },
+    {
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_requestlocationpermissions"
+    },
+    {
       "relation": "method",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -1123,11 +853,33 @@
       "context": "call",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
       "source_location": "L92",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_requestnotificationpermission"
     },
     {
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
+      "source_location": "L130",
+      "weight": 1.0,
       "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
-      "target": "textview",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_setupplacecallbacks"
+    },
+    {
+      "relation": "inherits",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
+      "target": "appcompatactivity"
+    },
+    {
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -1135,131 +887,455 @@
       "context": "field",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
       "source_location": "L19",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
+      "target": "textview"
     },
     {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver",
-      "target": "broadcastreceiver",
-      "relation": "imports",
+      "relation": "calls",
       "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "metadata": {
-        "target_fqn": "android.content.BroadcastReceiver"
-      },
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L7",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver",
-      "target": "context",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "metadata": {
-        "target_fqn": "android.content.Context"
-      },
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L8",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver",
-      "target": "intent",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "metadata": {
-        "target_fqn": "android.content.Intent"
-      },
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L9",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity",
-      "target": "build",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "metadata": {
-        "target_fqn": "android.os.Build"
-      },
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L6",
-      "weight": 1.0
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializeproximitykit",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver"
     },
     {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils",
-      "target": "build",
-      "relation": "imports",
+      "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "context": "import",
-      "metadata": {
-        "target_fqn": "android.os.Build"
-      },
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver"
+    },
+    {
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_createnotificationchannel"
+    },
+    {
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_hasnotificationpermission"
+    },
+    {
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_onreceive"
+    },
+    {
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showcustomplacenotification"
+    },
+    {
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showhomenotification"
+    },
+    {
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showworknotification"
+    },
+    {
+      "relation": "inherits",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
+      "target": "broadcastreceiver"
+    },
+    {
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
-      "source_location": "L8",
-      "weight": 1.0
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils"
     },
     {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver",
-      "target": "build",
-      "relation": "imports",
+      "relation": "method",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "context": "import",
-      "metadata": {
-        "target_fqn": "android.os.Build"
-      },
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_getlocationpermissions"
+    },
+    {
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_haslocationpermissions"
+    },
+    {
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_hasnotificationpermission"
+    },
+    {
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializeproximitykit",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_setupplacecallbacks"
+    },
+    {
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializespt",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializeproximitykit"
+    },
+    {
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_requestnotificationpermission",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializeproximitykit"
+    },
+    {
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializespt",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_requestlocationpermissions"
+    },
+    {
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializespt",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_requestnotificationpermission"
+    },
+    {
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_oncreate",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializespt"
+    },
+    {
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_oncreate",
+      "target": "bundle"
+    },
+    {
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L11",
-      "weight": 1.0
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_createnotificationchannel",
+      "target": "context"
     },
     {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity",
-      "target": "bundle",
-      "relation": "imports",
+      "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "context": "import",
-      "metadata": {
-        "target_fqn": "android.os.Bundle"
-      },
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L7",
-      "weight": 1.0
+      "context": "call",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showcustomplacenotification",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_createnotificationchannel"
     },
     {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity",
-      "target": "textview",
-      "relation": "imports",
+      "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "context": "import",
-      "metadata": {
-        "target_fqn": "android.widget.TextView"
-      },
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L8",
-      "weight": 1.0
+      "context": "call",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showhomenotification",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_createnotificationchannel"
     },
     {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity",
-      "target": "appcompatactivity",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showworknotification",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_createnotificationchannel"
+    },
+    {
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_hasnotificationpermission",
+      "target": "context"
+    },
+    {
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showcustomplacenotification",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_hasnotificationpermission"
+    },
+    {
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showhomenotification",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_hasnotificationpermission"
+    },
+    {
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showworknotification",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_hasnotificationpermission"
+    },
+    {
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_onreceive",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showcustomplacenotification"
+    },
+    {
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_onreceive",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showhomenotification"
+    },
+    {
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_onreceive",
+      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showworknotification"
+    },
+    {
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_onreceive",
+      "target": "context"
+    },
+    {
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_onreceive",
+      "target": "intent"
+    },
+    {
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showcustomplacenotification",
+      "target": "context"
+    },
+    {
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showhomenotification",
+      "target": "context"
+    },
+    {
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showworknotification",
+      "target": "context"
+    },
+    {
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_haslocationpermissions",
+      "target": "androidx"
+    },
+    {
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_hasnotificationpermission",
+      "target": "android"
+    },
+    {
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -1270,722 +1346,550 @@
       },
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
       "source_location": "L10",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_oncreate",
-      "target": "bundle",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L63",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_haslocationpermissions",
-      "target": "androidx",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
-      "source_location": "L19",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_hasnotificationpermission",
-      "target": "android",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
-      "source_location": "L40",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_createnotificationchannel",
-      "target": "context",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L71",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_hasnotificationpermission",
-      "target": "context",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L60",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_onreceive",
-      "target": "context",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L27",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_onreceive",
-      "target": "intent",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L27",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showcustomplacenotification",
-      "target": "context",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L131",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showhomenotification",
-      "target": "context",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L91",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showworknotification",
-      "target": "context",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L111",
-      "weight": 1.0
-    },
-    {
+      "weight": 1.0,
       "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
-      "relation": "contains",
+      "target": "appcompatactivity"
+    },
+    {
+      "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.os.Build"
+      },
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L15",
-      "weight": 1.0
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity",
+      "target": "build"
     },
     {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils",
-      "relation": "contains",
+      "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
-      "source_location": "L14",
-      "weight": 1.0
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.os.Bundle"
+      },
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity",
+      "target": "bundle"
     },
     {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
-      "relation": "contains",
+      "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.widget.TextView"
+      },
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity",
+      "target": "textview"
+    },
+    {
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.content.BroadcastReceiver"
+      },
       "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L17",
-      "weight": 1.0
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver",
+      "target": "broadcastreceiver"
     },
     {
-      "source": "gradlew",
-      "target": "gradlew__entry",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.os.Build"
+      },
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver",
+      "target": "build"
+    },
+    {
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.content.Context"
+      },
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver",
+      "target": "context"
+    },
+    {
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.content.Intent"
+      },
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver",
+      "target": "intent"
+    },
+    {
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.os.Build"
+      },
+      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils",
+      "target": "build"
+    },
+    {
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gradlew",
       "source_location": "L1",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "gradlew",
+      "target": "gradlew__entry"
     },
     {
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "gradlew",
+      "source_location": "L40",
+      "weight": 1.0,
       "source": "gradlew",
-      "target": "gradlew_save",
+      "target": "gradlew_die"
+    },
+    {
       "relation": "defines",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gradlew",
       "source_location": "L158",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "gradlew",
+      "target": "gradlew_save"
     },
     {
-      "source": "gradlew",
-      "target": "gradlew_warn",
       "relation": "defines",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "gradlew",
       "source_location": "L36",
-      "weight": 1.0
-    },
-    {
+      "weight": 1.0,
       "source": "gradlew",
-      "target": "gradlew_die",
-      "relation": "defines",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "gradlew",
-      "source_location": "L40",
-      "weight": 1.0
+      "target": "gradlew_warn"
     },
     {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
-      "target": "appcompatactivity",
-      "relation": "inherits",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L15",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
-      "target": "broadcastreceiver",
-      "relation": "inherits",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L17",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_requestlocationpermissions",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L100",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_setupplacecallbacks",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L130",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_oncreate",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L63",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializespt",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L75",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_haslocationpermissions",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
-      "source_location": "L19",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_getlocationpermissions",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
-      "source_location": "L33",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_permissionutils_permissionutils_hasnotificationpermission",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt",
-      "source_location": "L40",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showworknotification",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L111",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showcustomplacenotification",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L131",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_onreceive",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L27",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_hasnotificationpermission",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L60",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_createnotificationchannel",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L71",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver_showhomenotification",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt",
-      "source_location": "L91",
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_java_com_spt_androiddemoplacescallbacks_mainactivity_mainactivity_initializeproximitykit",
-      "target": "app_src_main_java_com_spt_androiddemoplacescallbacks_placecallbackreceiver_placecallbackreceiver",
       "relation": "calls",
       "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "context": "call",
-      "source_file": "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt",
-      "source_location": "L117",
-      "weight": 1.0
+      "source_file": "gradlew",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "gradlew__entry",
+      "target": "gradlew_die"
     },
     {
-      "source": "proximitykit_implementation",
-      "target": "proximitykit_implementation_cmp",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.85,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation",
-      "target": "proximitykit_implementation_placetransition",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.85,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation_custom_place",
-      "target": "proximitykit_implementation_sptplacecallbackconfig",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.85,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation_sptproximitykit",
-      "target": "proximitykit_implementation_cmp",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.85,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme",
-      "target": "proximitykit_implementation_androidmanifest",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.85,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme",
-      "target": "proximitykit_implementation_buildgradle",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.85,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme",
-      "target": "proximitykit_implementation_mainactivity",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.85,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation_custom_place",
-      "target": "proximitykit_implementation_geodata",
       "relation": "calls",
-      "_origin": "semantic",
+      "_origin": "ast",
       "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "gradlew",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "gradlew__entry",
+      "target": "gradlew_save"
     },
     {
-      "source": "proximitykit_implementation_home_place",
-      "target": "proximitykit_implementation_geodata",
       "relation": "calls",
-      "_origin": "semantic",
+      "_origin": "ast",
       "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "gradlew",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "gradlew__entry",
+      "target": "gradlew_warn"
     },
     {
-      "source": "proximitykit_implementation_work_place",
-      "target": "proximitykit_implementation_geodata",
-      "relation": "calls",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation",
-      "target": "proximitykit_implementation_custom_place",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation",
-      "target": "proximitykit_implementation_geodata",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation",
-      "target": "proximitykit_implementation_home_place",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation",
-      "target": "proximitykit_implementation_placecallbackreceiver",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation",
-      "target": "proximitykit_implementation_work_place",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation_androidmanifest",
-      "target": "proximitykit_implementation_sptproximitykit",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation_geodata",
-      "target": "proximitykit_implementation_sptplacecallbackconfig",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation_mainactivity",
-      "target": "proximitykit_implementation_placecallbackreceiver",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation_sptplacecallbackconfig",
-      "target": "proximitykit_implementation_placetransition",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation_sptproximitykit",
-      "target": "proximitykit_implementation_geodata",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation_mainactivity",
-      "target": "proximitykit_implementation_geodata",
-      "relation": "calls",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation_mainactivity",
-      "target": "proximitykit_implementation_sptproximitykit",
-      "relation": "calls",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation",
-      "target": "proximitykit_implementation_androidmanifest",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation",
-      "target": "proximitykit_implementation_buildgradle",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation",
-      "target": "proximitykit_implementation_mainactivity",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation",
-      "target": "proximitykit_implementation_sptplacecallbackconfig",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "proximitykit_implementation",
-      "target": "proximitykit_implementation_sptproximitykit",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
-      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "app_src_main_res_mipmap_xhdpi_ic_launcher",
-      "target": "readme",
-      "relation": "conceptually_related_to",
-      "_origin": "semantic",
-      "confidence": "INFERRED",
-      "confidence_score": 0.6,
-      "source_file": "app/src/main/res/mipmap-xhdpi/ic_launcher.png",
-      "source_location": null,
-      "weight": 0.6
-    },
-    {
-      "source": "app_src_main_res_mipmap_xhdpi_ic_launcher_round",
-      "target": "readme",
       "relation": "conceptually_related_to",
       "_origin": "semantic",
       "confidence": "INFERRED",
       "confidence_score": 0.6,
       "source_file": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
       "source_location": null,
-      "weight": 0.6
+      "weight": 0.6,
+      "source": "app_src_main_res_mipmap_mdpi_ic_launcher_round",
+      "target": "readme"
     },
     {
-      "source": "readme",
-      "target": "proximitykit_implementation",
-      "relation": "conceptually_related_to",
+      "relation": "references",
       "_origin": "semantic",
-      "confidence": "INFERRED",
-      "confidence_score": 0.65,
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation",
+      "target": "proximitykit_implementation_androidmanifest"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation_androidmanifest",
+      "target": "proximitykit_implementation_sptproximitykit"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
       "source_file": "README.md",
       "source_location": null,
-      "weight": 0.65
+      "weight": 1.0,
+      "source": "readme",
+      "target": "proximitykit_implementation_androidmanifest"
     },
     {
-      "source": "proximitykit_implementation_buildgradle",
-      "target": "proximitykit_implementation_sptproximitykit",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation",
+      "target": "proximitykit_implementation_buildgradle"
+    },
+    {
       "relation": "references",
       "_origin": "semantic",
       "confidence": "INFERRED",
       "confidence_score": 0.7,
       "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
       "source_location": null,
-      "weight": 0.7
+      "weight": 0.7,
+      "source": "proximitykit_implementation_buildgradle",
+      "target": "proximitykit_implementation_sptproximitykit"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme",
+      "target": "proximitykit_implementation_buildgradle"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation",
+      "target": "proximitykit_implementation_cmp"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation_sptproximitykit",
+      "target": "proximitykit_implementation_cmp"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation",
+      "target": "proximitykit_implementation_sptproximitykit"
+    },
+    {
+      "relation": "calls",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation_mainactivity",
+      "target": "proximitykit_implementation_sptproximitykit"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation_sptproximitykit",
+      "target": "proximitykit_implementation_geodata"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "_origin": "semantic",
+      "confidence": "INFERRED",
+      "confidence_score": 0.6,
+      "source_file": "app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "source_location": null,
+      "weight": 0.6,
+      "source": "app_src_main_res_mipmap_hdpi_ic_launcher",
+      "target": "readme"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "_origin": "semantic",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 0.65,
+      "source": "readme",
+      "target": "proximitykit_implementation"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme",
+      "target": "proximitykit_implementation_mainactivity"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation",
+      "target": "proximitykit_implementation_geodata"
+    },
+    {
+      "relation": "calls",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation_custom_place",
+      "target": "proximitykit_implementation_geodata"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation_geodata",
+      "target": "proximitykit_implementation_sptplacecallbackconfig"
+    },
+    {
+      "relation": "calls",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation_home_place",
+      "target": "proximitykit_implementation_geodata"
+    },
+    {
+      "relation": "calls",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation_mainactivity",
+      "target": "proximitykit_implementation_geodata"
+    },
+    {
+      "relation": "calls",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation_work_place",
+      "target": "proximitykit_implementation_geodata"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation",
+      "target": "proximitykit_implementation_placetransition"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation_sptplacecallbackconfig",
+      "target": "proximitykit_implementation_placetransition"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation",
+      "target": "proximitykit_implementation_sptplacecallbackconfig"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation_custom_place",
+      "target": "proximitykit_implementation_sptplacecallbackconfig"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation",
+      "target": "proximitykit_implementation_custom_place"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation",
+      "target": "proximitykit_implementation_home_place"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation",
+      "target": "proximitykit_implementation_work_place"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation",
+      "target": "proximitykit_implementation_mainactivity"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation",
+      "target": "proximitykit_implementation_placecallbackreceiver"
+    },
+    {
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "PROXIMITYKIT_IMPLEMENTATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "proximitykit_implementation_mainactivity",
+      "target": "proximitykit_implementation_placecallbackreceiver"
     }
   ],
   "hyperedges": [
@@ -2035,5 +1939,5 @@
       "source_file": "PROXIMITYKIT_IMPLEMENTATION.md"
     }
   ],
-  "built_at_commit": "abd97fda52f9a1233558b0888c899d37efc37893"
+  "built_at_commit": "d522ca47ea72a4d48ae10eba545719412ad8f219"
 }
