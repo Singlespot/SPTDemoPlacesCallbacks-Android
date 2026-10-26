@@ -1,43 +1,43 @@
 {
   "app/build.gradle": {
-    "mtime": 1791379727.680864,
-    "seen": 1791379752.472018,
+    "mtime": 1793012043.9492643,
+    "seen": 1793012055.1661358,
     "ast_hash": "3028adb253c144fcf401a76bb85e9643",
     "semantic_hash": "3028adb253c144fcf401a76bb85e9643"
   },
   "app/src/main/java/com/spt/androiddemoplacescallbacks/MainActivity.kt": {
-    "mtime": 1791379727.6811078,
-    "seen": 1791379752.4720213,
+    "mtime": 1793012043.949647,
+    "seen": 1793012055.1661432,
     "ast_hash": "6aef8c72da8855d079d5c1fdc8346ab8",
     "semantic_hash": "6aef8c72da8855d079d5c1fdc8346ab8"
   },
   "app/src/main/java/com/spt/androiddemoplacescallbacks/PermissionUtils.kt": {
-    "mtime": 1791379727.6812327,
-    "seen": 1791379752.4720228,
+    "mtime": 1793012043.949813,
+    "seen": 1793012055.166147,
     "ast_hash": "873177f9d52d0b7fd751efc65bd7a5bb",
     "semantic_hash": "873177f9d52d0b7fd751efc65bd7a5bb"
   },
   "app/src/main/java/com/spt/androiddemoplacescallbacks/PlaceCallbackReceiver.kt": {
-    "mtime": 1791379727.6812327,
-    "seen": 1791379752.4720237,
+    "mtime": 1793012043.949813,
+    "seen": 1793012055.1661496,
     "ast_hash": "b578c459b2b13f2f91684d22542c46ad",
     "semantic_hash": "b578c459b2b13f2f91684d22542c46ad"
   },
   "build.gradle": {
-    "mtime": 1791379727.6833735,
-    "seen": 1791379752.4720247,
+    "mtime": 1793012043.951708,
+    "seen": 1793012055.166152,
     "ast_hash": "29e906a14152c27b300078c1b8da7ff3",
     "semantic_hash": "29e906a14152c27b300078c1b8da7ff3"
   },
   "gradlew": {
-    "mtime": 1791379727.6840274,
-    "seen": 1791379752.4720254,
+    "mtime": 1793012043.9524584,
+    "seen": 1793012055.1661541,
     "ast_hash": "857faf4b42fc9e324fb40b7223f2a94a",
     "semantic_hash": "857faf4b42fc9e324fb40b7223f2a94a"
   },
   "settings.gradle": {
-    "mtime": 1791379727.6855614,
-    "seen": 1791379752.472026,
+    "mtime": 1793012043.9537036,
+    "seen": 1793012055.1661563,
     "ast_hash": "3028eee7c1f6925537723fec6423e308",
     "semantic_hash": "3028eee7c1f6925537723fec6423e308"
   },
@@ -108,8 +108,8 @@
     "semantic_hash": "1e49d495a78909ab8754ec436bc39147"
   },
   "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png": {
-    "mtime": 1791379727.6831274,
-    "seen": 1791379752.472033,
+    "mtime": 1793012043.9514604,
+    "seen": 1793012055.1661584,
     "ast_hash": "5800e2a5dbde6ab1c96157767f29ef04",
     "semantic_hash": "5800e2a5dbde6ab1c96157767f29ef04"
   }
